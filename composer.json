@@ -1,5 +1,5 @@
 {
-  "name": "michalsvec/nette-opauth",
+  "name": "HotelQuickly/nette-opauth",
   "type": "library",
   "description": "Opauth extension for Nette framework",
   "keywords": ["nette", "opauth"],
@@ -8,14 +8,17 @@
     {
       "name": "Michal Svec",
       "homepage": "http://michalsvec.cz"
+    },
+    {
+      "name": "DevOps Team",
+      "homepage": "https://www.hotelquickly.com"
     }
   ],
   "support": {
-    "email": "pan.svec@gmail.com",
-    "issues": "https://github.com/michalsvec/nette-opauth"
+    "email": "devops-team@hotelquickly.com"
   },
   "require": {
-    "nette/nette": "~2.1",
+    "nette/nette": "*",
     "opauth/opauth": "*",
     "opauth/facebook": "*",
     "opauth/google": "*",
